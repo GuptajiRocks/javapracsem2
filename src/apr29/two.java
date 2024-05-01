@@ -26,5 +26,6 @@ public class two {
             }
         }
         System.out.println(finar);
+        sc.close();
     }
 }
