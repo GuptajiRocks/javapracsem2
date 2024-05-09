@@ -15,6 +15,7 @@ public class two {
             s1.add(sc.nextLine());
         }
         System.out.println(s1);
+        sc.close();
     }
 
 }

@@ -21,6 +21,7 @@ public class one {
         System.out.println("Current state of stack: "+stack);
         System.out.println(stack.pop());
         System.out.println(stack);
+        sc.close();
 
     }
 }

@@ -4,8 +4,6 @@ interface oneone{
 }
 public class one {
     public static void main(String[] args) {
-        oneone a;
-
-
+        
     }
 }

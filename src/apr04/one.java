@@ -32,6 +32,7 @@ public class one {
             c1.cosmul(a,b);
 
         }
+        sc.close();
 
     }
 }

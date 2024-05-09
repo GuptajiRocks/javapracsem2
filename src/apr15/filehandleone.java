@@ -9,6 +9,7 @@ public class filehandleone {
         FileWriter out = new FileWriter(obj2);
         out.write(sc1.nextLine());
         out.close();
+        sc1.close();
 
     }
 }

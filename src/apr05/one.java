@@ -1,5 +1,5 @@
 package apr05;
-import java.util.Scanner;
+
 //Levels of abstraction
 //Access modifier
 //public, private, protected, (default) - to be checked
@@ -16,7 +16,7 @@ interface s2 extends s1 {
     abstract void billi();
     int a22 = 54;
 }
-abstract class juicy implements s1,s2 {
+abstract class juicy implements s2 {
     public int getS() {
         return s;
     }
@@ -30,7 +30,7 @@ public class one extends juicy {
     public static void main(String[] args) {
         one ss = new one();
         System.out.println(ss.s);
-        System.out.println(ss.a2);
+        System.out.println(s1.a2);
     }
     void cutie() {
     }

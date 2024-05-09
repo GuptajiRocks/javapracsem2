@@ -1,6 +1,6 @@
 package apr02;
 interface a1{
-    int a = 20;
+    public final int a = 20;
 }
 interface a2{
     int b = 800;

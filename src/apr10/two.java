@@ -9,6 +9,7 @@ class whywhy{
     private String name;
     public void set_id(int i) {
         this.id = i;
+        System.out.println(id+name);
     }
 }
 public class two {

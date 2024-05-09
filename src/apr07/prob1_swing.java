@@ -1,6 +1,5 @@
 package apr07;
 
-import java.awt.event.*;
 import java.awt.*;
 import javax.swing.*;
 
@@ -36,7 +35,7 @@ class prob1 extends JFrame {
         f.add(p);
         f.setSize(500, 500);
 
-        f.show();
+        f.setVisible(isDefaultLookAndFeelDecorated());;
         f.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 }

@@ -1,7 +1,6 @@
 package apr01;
 import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.Scanner;
+
 public class two {
     public static void main(String[] args) {
         PriorityQueue<Integer> qu = new PriorityQueue<>();
